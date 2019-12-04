@@ -1,6 +1,19 @@
+.container {
+  background-image: url('https://files.slack.com/files-pri/TLLJ8TVTM-FRBT4E23H/unite_background_pic.jpg') !important;
+  min-height: 100% !important;
+  min-width: 1024px !important;
+  width: 100% !important;
+  height: auto !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
 .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -20,3 +33,4 @@
 .App-link {
   color: #09d3ac;
 }
+
