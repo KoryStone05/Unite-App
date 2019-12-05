@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   background-image: url('https://files.slack.com/files-pri/TLLJ8TVTM-FRBT4E23H/unite_background_pic.jpg') !important;
   min-height: 100% !important;
@@ -32,5 +33,18 @@
 
 .App-link {
   color: #09d3ac;
+=======
+.background {
+  background-image: url('./Img/Unitebackground.jpg');
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+>>>>>>> f37777c9e56a3f87b5e7ae7e40f90fe4e90af17e
 }
 
