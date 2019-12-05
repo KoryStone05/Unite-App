@@ -20,13 +20,13 @@ class Info extends Component {
   </Form.Row>
 
   <Form.Group controlId="formGridAddress1">
-    <Form.Label>Address</Form.Label>
-    <Form.Control placeholder="1234 Main St" />
+    <Form.Label>Event Name</Form.Label>
+    <Form.Control placeholder="party" />
   </Form.Group>
 
   <Form.Group controlId="formGridAddress2">
-    <Form.Label>Address 2</Form.Label>
-    <Form.Control placeholder="Apartment, studio, or floor" />
+    <Form.Label>Address</Form.Label>
+    <Form.Control placeholder="Street location" />
   </Form.Group>
 
   <Form.Row>
