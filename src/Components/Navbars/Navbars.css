@@ -1,6 +1,15 @@
+
 .title {
     font-family: 'Pacifico', cursive;
     color: navy !important;
     font-size: 20pt !important;
     padding-bottom: 0 !important;
+}
+.slash {
+    margin-top: 8px;
+}
+
+.homeButton {
+    font-size: 15pt;
+
 }

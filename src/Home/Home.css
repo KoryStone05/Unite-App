@@ -1,13 +1,18 @@
 .welcome {
     text-align: center;
-    margin-top: 10%;
-    font-size: 30pt;
+    margin-top: 5%;
+    font-size: 50px;
     color: navy;
     text-shadow: white 0px 0px 3px;
+    font-weight: bold;
+
 }
 
 .unite {
     font-family: 'Pacifico', cursive;
     color: white;
     text-shadow: black 0px 0px 10px;
+
+    font-size: 50pt;
+
 }

@@ -1,3 +1,14 @@
 .card {
-    background-color: white; 
+    padding: 20px;
+    width: 1050px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 16px 28px 0 black, 0 25px 55px 0 grey;
 }
+
+.remember {
+    color: white;
+    text-shadow: black 0px 0px 20px;
+}
+
