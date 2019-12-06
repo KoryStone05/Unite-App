@@ -8,19 +8,7 @@ class Info extends Component {
         return(
         <div className="card">
             <Form type="hidden">
-  <Form.Row>
-    <Form.Group as={Col} controlId="formGridEmail">
-      <Form.Label>Email</Form.Label>
-      <Form.Control type="email" placeholder="Enter email" />
-    </Form.Group>
-
-    <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Password</Form.Label>
-      <Form.Control type="password" placeholder="Password" />
-    </Form.Group>
-  </Form.Row>
-
-
+              
   <Form.Group controlId="formGridAddress1">
     <Form.Label>Event Name</Form.Label>
     <Form.Control placeholder="party" />
@@ -100,6 +88,10 @@ class Info extends Component {
       <Form.Control />
     </Form.Group>
   </Form.Row>
+
+<div>
+  <textarea className='eventDetails' placeholder='Enter event details'></textarea>
+</div>
 
   <Button variant="primary" type="submit">
     Submit

@@ -1,7 +1,7 @@
 .card {
     padding: 20px;
     width: 1050px;
-    height: 450px;
+    height: 400px;
     margin: auto;
     background-color: white;
     box-shadow: 0 16px 28px 0 black, 0 25px 55px 0 grey;
@@ -12,3 +12,7 @@
     text-shadow: white 0px 0px 20px;
 }
 
+.eventDetails {
+    width: 1010px;
+    border-radius: 5px;
+}
