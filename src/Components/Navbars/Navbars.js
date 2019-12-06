@@ -12,10 +12,10 @@ class Navbars extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link href="#home" className='homeButton'>Home</Nav.Link>
-                            <Nav.Link href="#link">Sign Up</Nav.Link><div className='slash'>/</div><Nav.Link href="#link">Sign In</Nav.Link>           
+                            <Nav.Link className='sign-up' href="#link">Sign Up</Nav.Link><Nav.Link className='sign-in' href="#link">Sign In</Nav.Link>           
                 </Nav>
                 <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <FormControl type="text" placeholder="ZIP Code" className="mr-sm-2" />
                     <Button variant="dark">Search</Button>
                 </Form>
                 </Navbar.Collapse>
