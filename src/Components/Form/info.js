@@ -4,16 +4,10 @@ import './info.css'
 
 class Info extends Component {
 
-
-// function getSignInForm(event) {
-//   var signInForm = document.getElementById('card');
-  
-// };
-
     render() {
         return(
         <div className="card">
-            <Form>
+            <Form type="hidden">
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>Email</Form.Label>
@@ -107,12 +101,8 @@ class Info extends Component {
     </Form.Group>
   </Form.Row>
 
-  <Form.Group id="formGridCheckbox">
-    <Form.Check className='remember' type='checkbox' label="Remember Me" />
-  </Form.Group>
-
   <Button variant="primary" type="submit">
-    Sign Up
+    Submit
   </Button>
 </Form>
        </div>
