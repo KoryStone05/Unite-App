@@ -16,3 +16,17 @@
     font-size: 50pt;
 
 }
+
+.containerHome {
+    height: 400px;
+    width: 1000px;
+    background-image: url('../Img/BulletinBoard.jpg');
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.eventBoardTitle {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

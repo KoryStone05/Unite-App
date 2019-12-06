@@ -3,12 +3,11 @@ import {Form, Button, option, Col} from 'react-bootstrap';
 import './info.css'
 
 class Info extends Component {
-
     render() {
         return(
         <div className="card">
-            <Form type="hidden">
-              
+            <Form>
+
   <Form.Group controlId="formGridAddress1">
     <Form.Label>Event Name</Form.Label>
     <Form.Control placeholder="party" />
