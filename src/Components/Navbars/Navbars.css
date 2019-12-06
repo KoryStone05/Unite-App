@@ -5,11 +5,19 @@
     font-size: 20pt !important;
     padding-bottom: 0 !important;
 }
-.slash {
+
+.sign-up {
+    font-size: 15pt;
+    margin-top: 8px;
+}
+
+.sign-in {
+    font-size: 15pt;
     margin-top: 8px;
 }
 
 .homeButton {
     font-size: 15pt;
+    margin-top: 8px;
 
 }
