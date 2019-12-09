@@ -8,12 +8,11 @@ import Info from './Components/Form/info';
 
 
 
+
 function App() {
   return (
     <div className='background'>
-      <Navbars />
-      <Home />
-      <Info />
+      <Navbars />      
     </div>
   );
 }

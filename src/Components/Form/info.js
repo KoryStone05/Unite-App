@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import {Form, Button, option, Col} from 'react-bootstrap';
-import './info.css'
+import './info.css';
+import {Route} from 'react-router-dom';
+
+
 
 class Info extends Component {
     render() {
         return(
         <div className="card">
-            <Form>
+  <Form>
 
   <Form.Group controlId="formGridAddress1">
     <Form.Label>Event Name</Form.Label>
@@ -96,7 +99,13 @@ class Info extends Component {
     Submit
   </Button>
 </Form>
+
+            <div>
+                <Route  path="/info" component={Info}  />
+             </div>
        </div>
+
+
         );
     }
 }
