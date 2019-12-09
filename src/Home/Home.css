@@ -18,15 +18,28 @@
 }
 
 .containerHome {
-    height: 400px;
     width: 1000px;
     background-image: url('../Img/BulletinBoard.jpg');
+    height: 100%;
     margin: 10px auto;
     border-radius: 10px;
+    background-attachment: fixed;
+    min-height: 100%;
+    position: static;
+    
 }
 
 .eventBoardTitle {
     text-align: center;
     padding: 10px;
+    padding-bottom: 40px;
     color: white;
+    text-shadow: 3px 3px navy;
+
+}
+
+.eventBoardContainers {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 20px;
 }

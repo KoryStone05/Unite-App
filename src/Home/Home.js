@@ -13,6 +13,35 @@ class Home extends Component {
             </div>
             <div className='containerHome'>
                 <h3 className='eventBoardTitle'>Events Board</h3>
+                <div className='eventBoardContainers'>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                <h1>lksndlkns</h1>
+                </div>
+                
             </div>
         </div>
         );
