@@ -25,6 +25,38 @@ class Home extends Component {
                     <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
                 </div>
                 <div className='eventBoardContainers'>
+                    {/* <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1>
+                    <h1>djifhvofvfoxv</h1> */}
                 </div>
             </div>
             <div>

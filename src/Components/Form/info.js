@@ -6,7 +6,6 @@ import {Route} from 'react-router-dom';
 
 
 class Info extends Component {
-
 //   constructor() {
 //     super();
 //     this.state = {
@@ -17,6 +16,7 @@ class Info extends Component {
 // handleDropDown() {
 //     this.setState({ open: !this.state.open }) 
 // }
+
 
     render() {
         return(
@@ -109,14 +109,14 @@ class Info extends Component {
 
         <div className="radio">
           <label>
-            <input type="radio" value="option1" checked={true} />
+            <input type="radio" value="option1"  />
             Public
           </label>
         </div>
 
         <div className="radio">
           <label>
-            <input type="radio" value="option1" checked={true} />
+            <input type="radio" value="option1"  />
             Private
           </label>
         </div>
