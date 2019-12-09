@@ -26,10 +26,6 @@ class Home extends Component {
                     <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
                 </div>
                 <div className='eventBoardContainers'>
-<<<<<<< HEAD
-=======
-
->>>>>>> 89fd21f54e3e5c244a94ebc70cb8768276c49b47
                 </div>
             </div>
             <div>

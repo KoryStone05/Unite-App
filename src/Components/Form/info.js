@@ -23,9 +23,9 @@ class Info extends Component {
         <div className="card">
   <Form>
 
-  <Form.Group controlId="formGridAddress1">
+  <Form.Group controlId="eventName">
     <Form.Label>Event Name</Form.Label>
-    <Form.Control placeholder="party" />
+    <Form.Control/>
   </Form.Group>
 
   <Form.Group controlId="formGridAddress2">
@@ -107,9 +107,24 @@ class Info extends Component {
   <textarea className='eventDetails' placeholder='Enter event details'></textarea>
 </div>
 
+        <div className="radio">
+          <label>
+            <input type="radio" value="option1" checked={true} />
+            Public
+          </label>
+        </div>
+
+        <div className="radio">
+          <label>
+            <input type="radio" value="option1" checked={true} />
+            Private
+          </label>
+        </div>
+<div>
   <Button className='submitButton' variant="primary" type="submit">
     Submit
   </Button>
+  </div>
 </Form>
 
             <div>

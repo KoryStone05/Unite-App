@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import React, {Component} from 'react';
-import {Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
-=======
 import React, { Component } from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Container } from 'react-bootstrap';
->>>>>>> 89fd21f54e3e5c244a94ebc70cb8768276c49b47
 import './Navbars.css';
 import {
     Switch,
