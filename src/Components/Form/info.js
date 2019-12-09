@@ -6,18 +6,6 @@ import {Route} from 'react-router-dom';
 
 
 class Info extends Component {
-//   constructor() {
-//     super();
-//     this.state = {
-//         open: false
-//     }
-//     this.handleDropDown = this.handleDropDown.bind(this);
-// } 
-// handleDropDown() {
-//     this.setState({ open: !this.state.open }) 
-// }
-
-
     render() {
         return(
         <div className="card">
@@ -30,7 +18,7 @@ class Info extends Component {
 
   <Form.Group controlId="formGridAddress2">
     <Form.Label>Address</Form.Label>
-    <Form.Control placeholder="Street location" />
+    <Form.Control />
   </Form.Group>
 
 
@@ -104,21 +92,26 @@ class Info extends Component {
   </Form.Row>
 
 <div>
-  <textarea className='eventDetails' placeholder='Enter event details'></textarea>
+  <input className='eventDetailsBox' type='text' placeholder='Enter event details' />
 </div>
 
-        <div className="radio">
+        <div className="radioPublic">
           <label>
-            <input type="radio" value="option1"  />
+            <input type="radio" value="option1" checked={true}/>
             Public
           </label>
         </div>
 
-        <div className="radio">
+        <div className="radioPrivate">
           <label>
-            <input type="radio" value="option1"  />
+            <input type="radio" value="option2"/>
             Private
-          </label>
+            </label>
+        </div>
+        <div>
+        <Form.Group className="privatePassword">
+          <input type="password" placeholder="*Password Required*" onInput={this.validate}/>
+          </Form.Group>
         </div>
 <div>
   <Button className='submitButton' variant="primary" type="submit">

@@ -9,6 +9,7 @@ import {
 import Home from '../../Home/Home';
 import Info from '../Form/info';
 import Signin from '../SignIn/SignIn';
+import SignUp from '../SignUp/SignUp';
 
 
 class Navbars extends Component {
@@ -23,6 +24,7 @@ class Navbars extends Component {
                             <Nav.Link as={Link} to='/' className='homeButton'>Home</Nav.Link>
                             <Nav.Link as={Link} to='/about' className='sign-in' >Add Your Event</Nav.Link>
                             <Nav.Link as={Link} to='/sign'className='sign-in'>Sign In</Nav.Link>
+                            <Nav.Link as={Link} to='/signUp'className='sign-up'>Sign Up</Nav.Link>
                         </Nav>
                         <Form inline>
                             <FormControl type="text" placeholder="Event?" className="mr-sm-2" />
@@ -37,7 +39,9 @@ class Navbars extends Component {
 
                         <Route path='/about' component={Info}/>  
 
-                        <Route path='/sign' component={Signin} />                       
+                        <Route path='/sign' component={Signin} /> 
+
+                        <Route path='/signUp' component={SignUp} />                     
 
                     </Switch>
                 </div>
