@@ -1,10 +1,10 @@
 .background {
-<<<<<<< HEAD
-  background-image: url('./Img/UniteBackground.jpg');
-  /* min-width: 1024px; */;
-=======
+
   background-image: url('./Img/Unitebackground.jpg');
->>>>>>> 7b6b809b66f5096cc74ba508aebfafd3f42d21b6
+  /* min-width: 1024px; */;
+
+  /* background-image: url('./Img/Unitebackground.jpg'); */
+
   min-height: 100%;
   height: 100vmax;
   width: 100%;
