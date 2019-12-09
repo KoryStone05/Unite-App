@@ -1,6 +1,15 @@
 .background {
+<<<<<<< HEAD
   background-image: url('./Img/UniteBackground.jpg');
   /* min-width: 1024px; */;
+=======
+
+  background-image: url('./Img/Unitebackground.jpg');
+  /* min-width: 1024px; */;
+
+  /* background-image: url('./Img/Unitebackground.jpg'); */
+
+>>>>>>> 89fd21f54e3e5c244a94ebc70cb8768276c49b47
   min-height: 100%;
   height: 100vmax;
   width: 100%;

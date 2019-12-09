@@ -1,26 +1,54 @@
+<<<<<<< HEAD
 import React, {Component} from 'react';
 import {Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+=======
+import React, { Component } from 'react';
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Container } from 'react-bootstrap';
+>>>>>>> 89fd21f54e3e5c244a94ebc70cb8768276c49b47
 import './Navbars.css';
+import {
+    Switch,
+    Route,
+    Link,
+} from 'react-router-dom';
+import Home from '../../Home/Home';
+import Info from '../Form/info';
+import Signin from '../SignIn/SignIn';
+
 
 class Navbars extends Component {
     render() {
         return (
             <div>
-                 <Navbar bg="light" expand="lg">
+                <Navbar bg="light" expand="lg">
                     <Navbar.Brand className='title' href="#home">Unite</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="#home" className='homeButton'>Home</Nav.Link>
-                            <Nav.Link className='sign-up' href="#link">Sign Up</Nav.Link><Nav.Link className='sign-in' href="#link">Sign In</Nav.Link>           
-                </Nav>
-                <Form inline>
-                    <FormControl type="text" placeholder="ZIP Code" className="mr-sm-2" />
-                    <Button variant="dark">Search</Button>
-                </Form>
-                </Navbar.Collapse>
-                </Navbar>    
+                            <Nav.Link as={Link} to='/' className='homeButton'>Home</Nav.Link>
+                            <Nav.Link as={Link} to='/about' className='sign-in' >Add Your Event</Nav.Link>
+                            <Nav.Link as={Link} to='/sign'className='sign-in'>Sign In</Nav.Link>
+                        </Nav>
+                        <Form inline>
+                            <FormControl type="text" placeholder="Event?" className="mr-sm-2" />
+                            <Button variant="dark">Search</Button>
+                        </Form>
+                    </Navbar.Collapse>
+                </Navbar>
+            
+                <div>
+                    <Switch>
+                        <Route exact path='/' component={Home}/>
+
+                        <Route path='/about' component={Info}/>  
+
+                        <Route path='/sign' component={Signin} />                       
+
+                    </Switch>
+                </div>
             </div>
+
+
         );
     }
 }

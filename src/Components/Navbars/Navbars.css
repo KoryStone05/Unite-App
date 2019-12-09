@@ -19,5 +19,8 @@
 .homeButton {
     font-size: 15pt;
     margin-top: 8px;
+}
 
+.homeButton:focus, .sign-in:focus, .sign-up:focus {
+    color: navy !important;
 }

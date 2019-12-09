@@ -10,13 +10,14 @@ import Info from '../Components/Form/info';
 
 
 
+
 class Home extends Component {
     
 
     render() {
         return(
         <div>
-            <div className='welcome'>
+           <div className='welcome'>
                 <h1>Welcome to <span className='unite'>Unite</span>!</h1>
             </div>
             <div className='containerHome'>
@@ -25,6 +26,10 @@ class Home extends Component {
                     <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
                 </div>
                 <div className='eventBoardContainers'>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 89fd21f54e3e5c244a94ebc70cb8768276c49b47
                 </div>
             </div>
             <div>
