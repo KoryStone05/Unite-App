@@ -26,6 +26,7 @@
     background-attachment: fixed;
     min-height: 100%;
     position: relative;
+    background-repeat: no-repeat;
     
 }
 
@@ -39,6 +40,7 @@
 }
 
 .eventBoardContainers {
+    position: sticky;
     margin-top: 10px;
     margin-left: 20px;
     padding-bottom: 20px;

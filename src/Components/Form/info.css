@@ -1,25 +1,38 @@
 .card {
     padding: 20px;
     width: 1050px;
-    height: 425px;
+    height: 475px;
     margin: auto;
     margin-top: 50px;
     background-color: white;
     box-shadow: 0 16px 28px 0 black, 0 25px 55px 0 grey;
 }
 
-.remember {
-    color: black;
-    text-shadow: white 0px 0px 20px;
-}
-
-.eventDetails {
-    width: 1010px;
-    border-radius: 5px;
-}
-
-.radio {
+.radioPublic {
     display: inline;
     margin: 10px;
     padding: 2px;
+}
+
+.radioPrivate {
+    display: inline;
+    margin: 10px;
+    padding: 2px;
+}
+
+.privatePassword {
+   padding-left: 10px;
+   width: 1000px;
+   border-radius: 10px;
+   display: none;
+}
+
+.submitButton {
+    width: 200px;
+}
+
+.eventDetailsBox {
+    height: 75px;
+    width: 1000px;
+    
 }
