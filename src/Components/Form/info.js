@@ -3,6 +3,18 @@ import {Form, Button, option, Col} from 'react-bootstrap';
 import './info.css'
 
 class Info extends Component {
+
+//   constructor() {
+//     super();
+//     this.state = {
+//         open: false
+//     }
+//     this.handleDropDown = this.handleDropDown.bind(this);
+// } 
+// handleDropDown() {
+//     this.setState({ open: !this.state.open }) 
+// }
+
     render() {
         return(
         <div className="card">
@@ -92,7 +104,7 @@ class Info extends Component {
   <textarea className='eventDetails' placeholder='Enter event details'></textarea>
 </div>
 
-  <Button variant="primary" type="submit">
+  <Button className='submitButton' variant="primary" type="submit">
     Submit
   </Button>
 </Form>
