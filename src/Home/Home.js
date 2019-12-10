@@ -6,6 +6,7 @@ import {
     Link,
 } from 'react-router-dom';
 import Info from '../Components/Form/info';
+import { Form } from 'react-bootstrap';
 
 
 
@@ -25,33 +26,20 @@ class Home extends Component {
                     <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
                 </div>
                 <div className='eventBoardContainers'>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>qiwnefonqwfe</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
-                    <h1>jnsdkjfnskjfns</h1>
+                    <ul>
+                        <li>
+                            <h1>Anime Party</h1>
+                            <h3>12 pokemon lane</h3>
+                            <h3>kentucky</h3>
+                            <p>Text</p>
+                        </li>
+                        <li>
+                            <h1>Kory Crib</h1>
+                            <h3>Coffie lane</h3>
+                            <h3>kentucky</h3>
+                            <p>Text</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div>

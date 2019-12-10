@@ -1,14 +1,9 @@
 body {
 
-<<<<<<< HEAD
-  background-image: url('./Img/Unitebackground.jpg');
+  background-image: url('./Img/anime.PNG');
   /* min-width: 1024px; */
-=======
-  background-image: url('./Img/UniteBackground.jpg');
-  /* min-width: 1024px; */;
->>>>>>> cf41029ec543de1d7719b4aaae0b8562763431fd
 
-  background-image: url('./Img/Unitebackground.jpg');
+  
 
   min-height: 100vmax;
   height: 100vmax;
@@ -19,4 +14,5 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
