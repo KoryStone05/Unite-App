@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
-import {Form, Button} from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import './SignUp.css';
+import {
+    Switch,
+    Link,
+} from 'react-router-dom';
 
 
 class SignUp extends Component {
+    closeEventCard() {
+        this.setState({ formShow: false })
+    }
     render() {
         return (
-            <div className='signUpCard'> 
-                <Form > 
+            <div className='signUpCard'>
+                <Form >
+                    <Link as={Link} to='/'>
+                        <Button className='closeEventCard' onClick={() => this.closeEventCard()}>X</Button></Link>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" />
@@ -33,7 +42,7 @@ class SignUp extends Component {
                         <Form.Label>Confirm Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
-                   
+
                     <Button variant="primary" type="submit">
                         Submit
                     </Button>
