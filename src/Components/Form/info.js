@@ -2,14 +2,40 @@ import React, {Component} from 'react';
 import {Form, Button, option, Col} from 'react-bootstrap';
 import './info.css';
 import {Route} from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 
 
 class Info extends Component {
+
+  _this = this;
+
+  constructor(props) {
+    super(props);
+    this.state = { closeEventCard: false }
+      
+
+      this.closeEventCard = this.closeEventCard.bind(this);
+    }
+
+    handleEvent(event) {
+      this.setState({ closeEventCard: false });
+    }
+
+    closeEventCard(event) {
+      event.preventDefault();
+      this.setState({ closeEventCard: false });
+    }
+    
+  
+
+  
     render() {
         return(
         <div className="card">
   <Form>
+
+    {/* <Button>{event.props.closeEventCard}</Button> */}
 
   <Form.Group controlId="eventName">
     <Form.Label>Event Name</Form.Label>

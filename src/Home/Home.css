@@ -25,6 +25,12 @@
     border-radius: 10px;
     background-attachment: fixed;
     min-height: 100%;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+.containerHome:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100)
 }
 
 .eventBoardTitle {
@@ -60,4 +66,8 @@
     color: navy;
     background-color: white;
     transform: translate(0px, 3px);
+}
+
+.dropDownButton {
+    background-color: navy !important;
 }

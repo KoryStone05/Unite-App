@@ -6,50 +6,71 @@ import {
     Link,
 } from 'react-router-dom';
 import Info from '../Components/Form/info';
-import { Form } from 'react-bootstrap';
+import { Dropdown, } from 'react-bootstrap';
 
 
 
 
 class Home extends Component {
-    
+
 
     render() {
-        return(
-        <div>
-           <div className='welcome'>
-                <h1>Welcome to <span className='unite'>Unite</span>!</h1>
-            </div>
-            <div className='containerHome'>
-                <h3 className='eventBoardTitle'>Events Board</h3>
-                <div>
-                    <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
-                </div>
-                <div className='eventBoardContainers'>
-                    <ul>
-                        <li>
-                            <h1>Anime Party</h1>
-                            <h3>12 pokemon lane</h3>
-                            <h3>kentucky</h3>
-                            <p>Text</p>
-                        </li>
-                        <li>
-                            <h1>Kory Crib</h1>
-                            <h3>Coffie lane</h3>
-                            <h3>kentucky</h3>
-                            <p>Text</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        return (
             <div>
-                <Switch>
-                    <Route exact path='/about' component={Info}/>
-                </Switch>
-            </div>
-        </div>
+                <div className='welcome'>
+                    <h1>Welcome to <span className='unite'>Unite</span>!</h1>
+                </div>
+                <div className='containerHome'>
+                    <h3 className='eventBoardTitle'>Events Board</h3>
+                    <div>
+                        <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
+                    </div>
+                    <div className='eventBoardContainers'>
+                        <ul>
+                            <li>
+                                <h1>Anime Party</h1>
+                                <h3>12 pokemon lane</h3>
+                                <h3>kentucky</h3>
+                                <Dropdown>
+                                    <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                        Dropdown Button
+                                    </Dropdown.Toggle>
 
-        
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">vdvjnxv,dxbnv,dnv,cdnvjkcdnlvfdnlvjfxclvbnfdkjbvkfdjvfndfknvdanvkdnlavn</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </li>
+                            <li>
+
+                                <h1>Kory Crib</h1>
+                                <h3>Coffie lane</h3>
+                                <h3>kentucky</h3>
+                                <Dropdown>
+                                    <Dropdown.Toggle className="dropDownButton" variant="success" id="dropdown-basic">
+                                        Dropdown Button
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">vdvjnxv,dxbnv,dnv,cdnvjkcdnlvfdnlvjfxclvbnfdkjbvkfdjvfndfknvdanvkdnlavn</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </li>
+
+
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div>
+                    <Switch>
+                        <Route exact path='/about' component={Info} />
+                    </Switch>
+                </div>
+            </div >
+
+
         );
     }
 }
