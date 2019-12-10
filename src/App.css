@@ -1,17 +1,10 @@
 body {
 
-<<<<<<< HEAD
-  background-image: url('./Img/Unitebackground.jpg');
-  /* min-width: 1024px; */
-=======
-  background-image: url('./Img/UniteBackground.jpg');
+  background-image: url('./Img/UniteNewBackground.PNG');
   /* min-width: 1024px; */;
->>>>>>> cf41029ec543de1d7719b4aaae0b8562763431fd
-
-  background-image: url('./Img/Unitebackground.jpg');
 
   min-height: 100vmax;
-  height: 100vmax;
+  height: 50vmax;
   width: 100%;
   position: static;
   top: 0;
