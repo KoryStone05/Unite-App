@@ -30,7 +30,7 @@ class Home extends Component {
                     <div>
                         <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
                     </div>
-                    <div className='eventBoardContainers'>
+                    <div className='eventBoardContainers col-lg-4'>
                         <ul>
                             <li>
                                 <h1>Anime Party</h1>
@@ -61,6 +61,38 @@ class Home extends Component {
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </li>
+                            <li>
+
+                                <h1>Kory Crib</h1>
+                                <h3>Coffie lane</h3>
+                                <h3>kentucky</h3>
+                                <Dropdown>
+                                    <Dropdown.Toggle className="dropDownButton" variant="success" id="dropdown-basic">
+                                        Dropdown Button
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">vdvjnxv,dxbnv,dnv,cdnvjkcdnlvfdnlvjfxclvbnfdkjbvkfdjvfndfknvdanvkdnlavn</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </li>
+                            <li>
+
+                                <h1>Kory Crib</h1>
+                                <h3>Coffie lane</h3>
+                                <h3>kentucky</h3>
+                                <Dropdown>
+                                    <Dropdown.Toggle className="dropDownButton" variant="success" id="dropdown-basic">
+                                        Dropdown Button
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">vdvjnxv,dxbnv,dnv,cdnvjkcdnlvfdnlvjfxclvbnfdkjbvkfdjvfndfknvdanvkdnlavn</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </li>
+
+
 
 
                         </ul>

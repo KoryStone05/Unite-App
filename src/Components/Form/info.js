@@ -18,12 +18,22 @@ class Info extends Component {
     super(props);
     this.state = {
       formShow: true,
+      postEvent: false,
     }
   }
+
+
+    addEvent() {
+      this.setState({ postEvent: true })
+    }
+
 
     closeEventCard() {
       this.setState({ formShow: false })
     }
+  
+
+  
 
 
 
