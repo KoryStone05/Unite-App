@@ -17,8 +17,16 @@ class SignUp extends Component {
                     </Form.Group>
 
                     <Form.Group controlId="formBasicPassword">
+                        <Form.Label>Username</Form.Label>
+                        <Form.Control type="username" placeholder="Username" />
+                    </Form.Group>
+
+                    <Form.Group controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" />
+                        <Form.Text className="text-muted">
+                            Password must be at least six characters.
+                        </Form.Text>
                     </Form.Group>
 
                     <Form.Group controlId="confirmBasicPassword">
