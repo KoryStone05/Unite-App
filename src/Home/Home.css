@@ -1,6 +1,6 @@
 .welcome {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 50px;
     color: #274690;
     text-shadow: whitesmoke 0px 0px 3px;
@@ -56,12 +56,17 @@ li {
     width: 500px;
     background-color: white;
     display: inline-block;
-    /* margin-top: 15px; */
     border-radius: 10px;
     margin: 15px 65%;
     border: 2px solid navy;
     box-shadow: 5px 5px black;
 }
+
+li:hover {
+    transform: scale(1.1, 1);
+}
+
+
 
 .createEventButton {
     margin-top: -30px;
@@ -85,3 +90,4 @@ li {
 .dropDownButton {
     background-color: navy !important;
 }
+

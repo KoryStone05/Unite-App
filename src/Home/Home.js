@@ -13,6 +13,17 @@ import { Dropdown, } from 'react-bootstrap';
 
 class Home extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            openEvent: true
+        }
+    }
+
+    showEvent() {
+        this.setState({ openEvent: true })
+    }
+
 
     render() {
         return (
@@ -32,13 +43,16 @@ class Home extends Component {
                     </div>
                     <div className='eventBoardContainers col-lg-4'>
                         <ul>
+
+                            {this.state.openEvent ? 
+                            <div className='openEventContainer' onClick={() => this.showEvent()}>
                             <li>
                                 <h1>Anime Party</h1>
                                 <h3>12 pokemon lane</h3>
                                 <h3>kentucky</h3>
                                 <Dropdown>
                                     <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
-                                        Dropdown Button
+                                        Event Details
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
@@ -46,14 +60,17 @@ class Home extends Component {
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </li>
+                            </div>
+                            : null }
+                             {this.state.openEvent ? 
+                            <div className='openEventContainer' onClick={() => this.showEvent()}>
                             <li>
-
-                                <h1>Kory Crib</h1>
-                                <h3>Coffie lane</h3>
+                                <h1>Anime Party</h1>
+                                <h3>12 pokemon lane</h3>
                                 <h3>kentucky</h3>
                                 <Dropdown>
-                                    <Dropdown.Toggle className="dropDownButton" variant="success" id="dropdown-basic">
-                                        Dropdown Button
+                                    <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                        Event Details
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
@@ -61,14 +78,17 @@ class Home extends Component {
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </li>
+                            </div>
+                            : null }
+                             {this.state.openEvent ? 
+                            <div className='openEventContainer' onClick={() => this.showEvent()}>
                             <li>
-
-                                <h1>Kory Crib</h1>
-                                <h3>Coffie lane</h3>
+                                <h1>Anime Party</h1>
+                                <h3>12 pokemon lane</h3>
                                 <h3>kentucky</h3>
                                 <Dropdown>
-                                    <Dropdown.Toggle className="dropDownButton" variant="success" id="dropdown-basic">
-                                        Dropdown Button
+                                    <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                        Event Details
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
@@ -76,14 +96,17 @@ class Home extends Component {
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </li>
+                            </div>
+                            : null }
+                             {this.state.openEvent ? 
+                            <div className='openEventContainer' onClick={() => this.showEvent()}>
                             <li>
-
-                                <h1>Kory Crib</h1>
-                                <h3>Coffie lane</h3>
+                                <h1>Anime Party</h1>
+                                <h3>12 pokemon lane</h3>
                                 <h3>kentucky</h3>
                                 <Dropdown>
-                                    <Dropdown.Toggle className="dropDownButton" variant="success" id="dropdown-basic">
-                                        Dropdown Button
+                                    <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                        Event Details
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
@@ -91,6 +114,27 @@ class Home extends Component {
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </li>
+                            </div>
+                            : null }
+                             {this.state.openEvent ? 
+                            <div className='openEventContainer' onClick={() => this.showEvent()}>
+                            <li>
+                                <h1>Anime Party</h1>
+                                <h3>12 pokemon lane</h3>
+                                <h3>kentucky</h3>
+                                <Dropdown>
+                                    <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                        Event Details
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="#/action-1">vdvjnxv,dxbnv,dnv,cdnvjkcdnlvfdnlvjfxclvbnfdkjbvkfdjvfndfknvdanvkdnlavn</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </li>
+                            </div>
+                            : null }
+
 
 
 
