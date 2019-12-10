@@ -9,16 +9,23 @@
 .sign-up {
     font-size: 15pt;
     margin-top: 8px;
+    color: white !important;
 }
 
 .sign-in {
     font-size: 15pt;
     margin-top: 8px;
+    color: white !important;
 }
 
 .homeButton {
     font-size: 15pt;
     margin-top: 8px;
+    color: white !important;
+}
+
+.homeButton:hover, .sign-in:hover, .sign-up:hover {
+    color: navy !important;
 }
 
 .homeButton:focus, .sign-in:focus, .sign-up:focus {
