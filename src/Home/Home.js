@@ -12,34 +12,6 @@ import { Dropdown, } from 'react-bootstrap';
 
 
 class Home extends Component {
-<<<<<<< HEAD
-    
-    constructor(props) {
-        super(props);
-        this.state = {
-            showEventBoard: true
-        }
-    }
-
-    getEventBoard() {
-        
-        if (this.setState({ formShow: false})) {
-            return this.state.showventBoard;
-        }
-    }
-
-    render() {
-        return(
-        <div>
-           <div className='welcome'>
-                <h1>Welcome to <span className='unite'>Unite</span>!</h1>
-            </div>
-            {this.state.showEventBoard}
-            <div className='containerHome'>
-                <h3 className='eventBoardTitle'>Events Board</h3>
-                <div>
-                    <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
-=======
 
 
     render() {
@@ -90,7 +62,6 @@ class Home extends Component {
 
 
                     </div>
->>>>>>> ab737ae6107a9a79b985c1cdabd416e765d0e1eb
                 </div>
                 <div>
                     <Switch>
