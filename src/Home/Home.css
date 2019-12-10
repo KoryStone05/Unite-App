@@ -5,7 +5,7 @@
     color: #274690;
     text-shadow: whitesmoke 0px 0px 3px;
     font-weight: bold;
-
+    font-family: 'Lilita One', cursive;
 }
 
 .unite {
@@ -27,6 +27,7 @@
     min-height: 100%;
     opacity: 0.9;
     filter: alpha(opacity=50);
+    font-family: 'Lilita One', cursive;
 }
 .containerHome:hover {
     opacity: 1.0;

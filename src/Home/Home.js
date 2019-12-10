@@ -18,6 +18,11 @@ class Home extends Component {
         return (
             <div>
                 <div className='welcome'>
+                    <html>
+                        <head>
+                            <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet" />
+                        </head>
+                    </html>
                     <h1>Welcome to <span className='unite'>Unite</span>!</h1>
                 </div>
                 <div className='containerHome'>
