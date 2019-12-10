@@ -12,6 +12,19 @@ import Info from '../Components/Form/info';
 
 class Home extends Component {
     
+    constructor(props) {
+        super(props);
+        this.state = {
+            showEventBoard: true
+        }
+    }
+
+    getEventBoard() {
+        
+        if (this.setState({ formShow: false})) {
+            return this.state.showventBoard;
+        }
+    }
 
     render() {
         return(
@@ -19,6 +32,7 @@ class Home extends Component {
            <div className='welcome'>
                 <h1>Welcome to <span className='unite'>Unite</span>!</h1>
             </div>
+            {this.state.showEventBoard}
             <div className='containerHome'>
                 <h3 className='eventBoardTitle'>Events Board</h3>
                 <div>
