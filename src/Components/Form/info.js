@@ -25,7 +25,7 @@ class Info extends Component {
     closeEventCard() {
       this.setState({ formShow: false })
     }
-    
+
 
     render() {
       return (
@@ -41,6 +41,12 @@ class Info extends Component {
               <Form.Label>Event Name</Form.Label>
               <Form.Control />
             </Form.Group>
+
+            <Form.Group controlId="formPartyTime">
+              <Form.Label>Party Time</Form.Label>
+              <Form.Control />
+            </Form.Group>
+
 
             <Form.Group controlId="formGridAddress2">
               <Form.Label>Address</Form.Label>
