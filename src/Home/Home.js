@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Info from '../Components/Form/info';
 import { Dropdown, } from 'react-bootstrap';
+import Confetti from 'react-confetti';
 
 
 
@@ -34,12 +35,13 @@ class Home extends Component {
                             <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet" />
                         </head>
                     </html>
+                    <Confetti tweenDuration='5' />
                     <h1>Welcome to <span className='unite'>Unite</span>!</h1>
                 </div>
                 <div className='containerHome'>
                     <h3 className='eventBoardTitle'>Events Board</h3>
                     <div>
-                        <Link as={Link} to='/about'><button className='createEventButton'>Create Event</button></Link>
+                        <Link as={Link} to='/about'>/><button className='createEventButton'>Create Event</button></Link>
                     </div>
                     <div className='eventBoardContainers col-lg-4'>
                         <ul>

@@ -25,12 +25,7 @@ class Info extends Component {
     closeEventCard() {
       this.setState({ formShow: false })
     }
-  
-
-  
-
-
-
+    
 
     render() {
       return (
