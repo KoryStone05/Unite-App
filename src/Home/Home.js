@@ -49,6 +49,7 @@ class Home extends Component {
                             <div className='openEventContainer' onClick={() => this.showEvent()}>
                             <li>
                                 <h1>Anime Party</h1>
+                                <h2>4pm</h2>
                                 <h3>12 pokemon lane</h3>
                                 <h3>kentucky</h3>
                                 <Dropdown>

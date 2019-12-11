@@ -26,6 +26,7 @@ class Info extends Component {
       this.setState({ formShow: false })
     }
 
+   
 
     render() {
       return (
@@ -146,9 +147,9 @@ class Info extends Component {
               </Form.Group>
             </div>
             <div>
-              <Button className='submitButton' variant="primary" type="submit">
+              <Link as={Link} to='/'><Button className='submitButton' variant="primary" type="submit">
                 Submit
-  </Button>
+              </Button></Link>
             </div>
           </Form>
 
