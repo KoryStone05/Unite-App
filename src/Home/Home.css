@@ -65,7 +65,7 @@ li {
 li:hover {
     background-color: navy;
     color: white;
-    transition: ease-in(5000ms);
+    transition: 1.2s;
 }
 
 
