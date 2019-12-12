@@ -4,31 +4,53 @@
     color: navy !important;
     font-size: 20pt !important;
     padding-bottom: 0 !important;
-    text-shadow: .5px .5px white !important;
+    text-shadow: .5px .5px gray !important;
 }
 
 .sign-up {
     font-size: 15pt;
     margin-top: 8px;
     color: white !important;
+    border: 5px solid navy;
+    background-color: #424651;    
+    margin-left: 5px;
+    
 }
+
 
 .sign-in {
     font-size: 15pt;
     margin-top: 8px;
     color: white !important;
+    border: 5px solid navy;
+    background-color: #424651;
+    margin-left: 5px;
+}
+
+.info {
+    font-size: 15pt;
+    margin-top: 8px;
+    color: white !important;
+    border: 5px solid navy;
+    background-color: #424651;
+    margin-left: 5px;
 }
 
 .homeButton {
     font-size: 15pt;
     margin-top: 8px;
     color: white !important;
+    border: 5px solid navy;
+    background-color: #424651;
+    margin-left: 5px;
 }
 
-.homeButton:hover, .sign-in:hover, .sign-up:hover {
+.homeButton:hover, .info:hover, .sign-in:hover, .sign-up:hover {
     color: navy !important;
+    background-color: white;
+
 }
 
-.homeButton:focus, .sign-in:focus, .sign-up:focus {
+.homeButton:focus, .info:focus, .sign-in:focus, .sign-up:focus {
     color: navy !important;
 }
