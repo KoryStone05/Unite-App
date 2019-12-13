@@ -23,7 +23,7 @@ class Navbars extends Component {
                         <Nav className="mr-auto">
 
                             <Nav.Link as={Link} to='/' className='homeButton'>Home</Nav.Link>
-                            <Nav.Link as={Link} to='/info' className='info' >Add Your Event</Nav.Link>
+                            <Nav.Link as={Link} to='/about' className='info' >Add Event</Nav.Link>
                             <Nav.Link as={Link} to='/sign' className='sign-in'>Sign In</Nav.Link>
                             <Nav.Link as={Link} to='/signUp' className='sign-up'>Sign Up</Nav.Link>
 
@@ -39,7 +39,7 @@ class Navbars extends Component {
                     <Switch>
                         <Route exact path='/' component={Home} />
 
-                        <Route path='/info' component={Info} />
+                        <Route path='/about' component={Info} />
 
                         <Route path='/sign' component={Signin} />
 

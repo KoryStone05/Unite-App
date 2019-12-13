@@ -14,7 +14,8 @@
     border: 5px solid navy;
     background-color: #424651;    
     margin-left: 5px;
-    
+    border-radius: 40%;
+    font-family: 'Lilita One', cursive !important;
 }
 
 
@@ -25,6 +26,9 @@
     border: 5px solid navy;
     background-color: #424651;
     margin-left: 5px;
+    border-radius: 40%;
+    font-family: 'Lilita One', cursive !important;
+
 }
 
 .info {
@@ -34,6 +38,9 @@
     border: 5px solid navy;
     background-color: #424651;
     margin-left: 5px;
+    border-radius: 40%;
+    font-family: 'Lilita One', cursive !important;
+
 }
 
 .homeButton {
@@ -43,6 +50,9 @@
     border: 5px solid navy;
     background-color: #424651;
     margin-left: 5px;
+    border-radius: 40%;
+    font-family: 'Lilita One', cursive !important;
+
 }
 
 .homeButton:hover, .info:hover, .sign-in:hover, .sign-up:hover {
