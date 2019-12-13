@@ -43,7 +43,7 @@ class SignUp extends Component {
                         <Form.Control type="password" placeholder="Password" />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
+                    <Button className='button' variant="primary" type="submit">
                         Submit
                     </Button>
                 </Form>

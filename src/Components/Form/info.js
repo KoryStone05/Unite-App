@@ -146,7 +146,7 @@ class Info extends Component {
                 <input type="password" placeholder="*Password Required*" onInput={this.validate} />
               </Form.Group>
             </div>
-            <div>
+            <div className='button'>
               <Link as={Link} to='/'><Button className='submitButton' variant="primary" type="submit">
                 Submit
               </Button></Link>

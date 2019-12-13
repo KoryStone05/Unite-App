@@ -43,4 +43,9 @@
     margin-bottom: 10px;
     height: 35px;
     text-align: center;
+    font-family: 'Lilita One', cursive !important;
+}
+
+.button {
+    font-family: 'Lilita One', cursive !important;
 }
