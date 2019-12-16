@@ -8,6 +8,11 @@ import {
 import Info from '../Components/Form/info';
 import { Dropdown } from 'react-bootstrap';
 import { Form, Button, option, Col, ToggleButton } from 'react-bootstrap';
+<<<<<<< HEAD
+import { useWindowSize } from 'react-dom';
+// import Confetti from 'react-confetti';
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
 
 
 
@@ -246,11 +251,116 @@ class Home extends Component {
                         <button className='createEventButton' onClick={() => this.setState({showForm: true})}>Create Event</button>
                     </div>
                     <div className='eventBoardContainers col-lg-4'>
+<<<<<<< HEAD
+                        <div>
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
                         <ul>  
                             <div className='openEventContainer'>
                                 {this.renderEvents()}
                             </div>
                         </ul>
+<<<<<<< HEAD
+                        </div>
+
+                            {/* {this.state.openEvent ?
+                                // <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                //     <li>
+                                //         <h1>Pizza Party</h1>
+                                //         <h3>123 Mario Lane</h3>
+                                //         <h3>Kentucky</h3>
+                                //         <Dropdown>
+                                //             <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                //                 Event Details
+                                //     </Dropdown.Toggle>
+
+                                //             <Dropdown.Menu>
+                                //                 <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                //             </Dropdown.Menu>
+                                //         </Dropdown>
+                                //     </li>
+                                // </div>
+                                : null} */}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+
+
+
+
+
+                        {/* </ul> */}
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
                     </div>
                 </div>
                 <div>
