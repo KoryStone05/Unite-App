@@ -23,7 +23,7 @@ class Navbars extends Component {
                         <Nav className="mr-auto">
 
                             <Nav.Link as={Link} to='/' className='homeButton'>Home</Nav.Link>
-                            <Nav.Link as={Link} to='/about' className='info' >Add Event</Nav.Link>
+                            {/* <Nav.Link as={Link} to='/about' className='info' >Add Event</Nav.Link> */}
                             <Nav.Link as={Link} to='/sign' className='sign-in'>Sign In</Nav.Link>
                             <Nav.Link as={Link} to='/signUp' className='sign-up'>Sign Up</Nav.Link>
 

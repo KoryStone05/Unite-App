@@ -26,7 +26,7 @@ class Info extends Component {
       eventDetailsInput: '',
     }
 
-    // this.handleSubmit = this.handleSubmit.bind(this);
+    
   }
 
     
@@ -169,9 +169,9 @@ class Info extends Component {
               </Form.Group>
             </div>
             <div>
-              <Button className='submitButton' variant="primary" type="submit" onSubmit={this.props.location.infoProps.handleSubmit}>
+              {/* <Button className='submitButton' variant="primary" type="submit" onSubmit={this.props.location.infoProps.handleSubmit}>
                 Submit
-              </Button>
+              </Button> */}
             </div>
           </Form>
 
