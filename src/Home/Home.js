@@ -8,11 +8,8 @@ import {
 import Info from '../Components/Form/info';
 import { Dropdown } from 'react-bootstrap';
 import { Form, Button, option, Col, ToggleButton } from 'react-bootstrap';
-<<<<<<< HEAD
 import { useWindowSize } from 'react-dom';
 // import Confetti from 'react-confetti';
-=======
->>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
 
 
 
@@ -233,6 +230,7 @@ class Home extends Component {
 
         return (
             <div>
+            <div>
                 <div className='welcome'>
                     {/* <Confetti spread={360} startVelocity={100} numberOfPieces={1000} duration={10000} elementCount={109} run={3} recycle={false} /> */}
                     <h1>Welcome to <span className='unite'>Unite</span>!</h1>
@@ -251,16 +249,11 @@ class Home extends Component {
                         <button className='createEventButton' onClick={() => this.setState({showForm: true})}>Create Event</button>
                     </div>
                     <div className='eventBoardContainers col-lg-4'>
-<<<<<<< HEAD
-                        <div>
-=======
->>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
                         <ul>  
                             <div className='openEventContainer'>
                                 {this.renderEvents()}
                             </div>
                         </ul>
-<<<<<<< HEAD
                         </div>
 
                             {/* {this.state.openEvent ?
@@ -359,8 +352,6 @@ class Home extends Component {
 
 
                         {/* </ul> */}
-=======
->>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
                     </div>
                 </div>
                 <div>
@@ -368,7 +359,7 @@ class Home extends Component {
                         <Route exact path='/about' component={Info} />
                     </Switch> */}
                 </div>
-            </div >
+                </div>
 
 
         );
