@@ -8,8 +8,11 @@ import {
 import Info from '../Components/Form/info';
 import { Dropdown } from 'react-bootstrap';
 import { Form, Button, option, Col, ToggleButton } from 'react-bootstrap';
+<<<<<<< HEAD
 import { useWindowSize } from 'react-dom';
 // import Confetti from 'react-confetti';
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
 
 
 
@@ -55,7 +58,7 @@ class Home extends Component {
         if (events.length > 0) {
             return events.map((event) => (
                 <li>
-                    <h1 className='eventName'>{event.eventName}</h1>
+                    <h1 className='eventName'>{event.name}</h1>
                     <h3 className='eventAddress'>{event.address}</h3>
                     <h3 className='eventCity'>{event.city}</h3>
                     <h3 className='eventState'>{event.state}</h3>
@@ -248,12 +251,16 @@ class Home extends Component {
                         <button className='createEventButton' onClick={() => this.setState({showForm: true})}>Create Event</button>
                     </div>
                     <div className='eventBoardContainers col-lg-4'>
+<<<<<<< HEAD
                         <div>
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
                         <ul>  
                             <div className='openEventContainer'>
                                 {this.renderEvents()}
                             </div>
                         </ul>
+<<<<<<< HEAD
                         </div>
 
                             {/* {this.state.openEvent ?
@@ -352,6 +359,8 @@ class Home extends Component {
 
 
                         {/* </ul> */}
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
                     </div>
                 </div>
                 <div>

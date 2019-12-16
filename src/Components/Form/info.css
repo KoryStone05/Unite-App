@@ -2,8 +2,11 @@
     padding: 20px;
     width: 1000px;
     height: 475px;
+<<<<<<< HEAD
     width: 1050px;
     height: 525px;
+=======
+>>>>>>> 6e19706ee6f1feb9cae9fdaf2f04d687767b42af
     margin: auto;
     margin-top: 50px;
     background-color: white;
@@ -36,7 +39,6 @@
 .eventDetailsBox {
     height: 75px;
     width: 1000px;
-    
 }
 
 .closeEventCard {
