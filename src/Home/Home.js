@@ -61,7 +61,7 @@ class Home extends Component {
                     <h3 className='eventState'>{event.state}</h3>
                     <h3 className='eventZip'>{event.zip}</h3>
                     <Dropdown>
-                        <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                        <Dropdown.Toggle className="dropDownbottom" variant="primary" id="dropdown-basic">
                             Event Details
                         </Dropdown.Toggle>
     
