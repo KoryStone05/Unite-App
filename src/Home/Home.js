@@ -53,7 +53,7 @@ class Home extends Component {
         if (events.length > 0) {
             return events.map((event) => (
                 <li>
-                    <h1 className='eventName'>{event.eventName}</h1>
+                    <h1 className='eventName'>{event.name}</h1>
                     <h3 className='eventAddress'>{event.address}</h3>
                     <h3 className='eventCity'>{event.city}</h3>
                     <h3 className='eventState'>{event.state}</h3>
