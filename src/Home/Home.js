@@ -230,6 +230,7 @@ class Home extends Component {
 
         return (
             <div>
+            <div>
                 <div className='welcome'>
                     <Confetti spread={360} startVelocity={100} numberOfPieces={1000} duration={10000} elementCount={109} run={3} recycle={false} />
                     <h1>Welcome to <span className='unite'>Unite</span>!</h1>
@@ -254,6 +255,8 @@ class Home extends Component {
                                 {this.renderEvents()}
                             </div>
                         </ul>
+
+                     
                     </div>
                 </div>
                 <div>
@@ -262,7 +265,7 @@ class Home extends Component {
                     </Switch> */}
                 </div>
             </div>
-
+            </div>
             </div>
         );
     }
