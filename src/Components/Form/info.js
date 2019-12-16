@@ -18,13 +18,27 @@ class Info extends Component {
     super(props);
     this.state = {
       formShow: true,
+      eventNameInput: '',
+      addressInput: '',
+      cityInput: '',
+      stateInput: '',
+      zipInput: '',
+      eventDetailsInput: '',
     }
+
+    // this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+    
 
-    closeEventCard() {
-      this.setState({ formShow: false })
-    }
+  // handleSubmit(event) {
+  // event.preventDefault();
+  // }
+
+
+  closeEventCard() {
+    this.setState({ formShow: false })
+  }
   
 
   
@@ -33,6 +47,9 @@ class Info extends Component {
 
 
     render() {
+
+      console.log(this.props.location);
+
       return (
         <div>
           {this.state.formShow ?
@@ -43,24 +60,24 @@ class Info extends Component {
             <Button className='closeEventCard' onClick={() => this.closeEventCard()}>X</Button></Link>
 
             <Form.Group controlId="eventName">
-              <Form.Label>Event Name</Form.Label>
+              <Form.Label {...this.state.eventName}>Event Name</Form.Label>
               <Form.Control />
             </Form.Group>
 
             <Form.Group controlId="formGridAddress2">
-              <Form.Label>Address</Form.Label>
+              <Form.Label {...this.state.address}>Address</Form.Label>
               <Form.Control />
             </Form.Group>
 
 
             <Form.Row>
               <Form.Group as={Col} controlId="formGridCity">
-                <Form.Label>City</Form.Label>
+                <Form.Label {...this.state.city}>City</Form.Label>
                 <Form.Control />
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridState">
-                <Form.Label>State</Form.Label>
+                <Form.Label {...this.state.state}>State</Form.Label>
                 <Form.Control as="select">
                   <option selected disabled value='0'>Choose...</option>
                   <option>Alabama</option>
@@ -117,7 +134,7 @@ class Info extends Component {
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridZip">
-                <Form.Label>Zip</Form.Label>
+                <Form.Label {...this.state.zip}>Zip</Form.Label>
                 <Form.Control />
               </Form.Group>
             </Form.Row>
@@ -128,7 +145,7 @@ class Info extends Component {
 
             <div className="radioPublic">
               <label>
-                <input type="radio" value="option1" checked={true} />
+                <input type="radio" value="option1" checked={true}  />
                 Public
           </label>
             </div>
@@ -145,9 +162,9 @@ class Info extends Component {
               </Form.Group>
             </div>
             <div>
-              <Button className='submitButton' variant="primary" type="submit">
+              <Button className='submitButton' variant="primary" type="submit" onSubmit={this.props.location.infoProps.handleSubmit}>
                 Submit
-  </Button>
+              </Button>
             </div>
           </Form>
 
@@ -161,8 +178,6 @@ class Info extends Component {
             <Route exact path='/' component={Home} />
           </Switch>
       </div>
-
-    
 
 
     );

@@ -60,6 +60,7 @@ li {
     margin: 15px 65%;
     border: 2px solid navy;
     box-shadow: 5px 5px black;
+
 }
 
 li:hover {
@@ -91,5 +92,19 @@ li:hover {
 
 .dropDownButton {
     background-color: navy !important;
+    border: 2px solid white !important;
 }
 
+.dropDownButton:hover {
+    background-color: white !important;
+    color: navy !important;
+}
+
+.eventDetails {
+    height: 400px;
+    width: 800px;
+}
+
+.formGridCity {
+    
+}
