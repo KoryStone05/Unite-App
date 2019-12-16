@@ -6,8 +6,14 @@ import {
     Link,
 } from 'react-router-dom';
 import Info from '../Components/Form/info';
+<<<<<<< HEAD
 import { Dropdown } from 'react-bootstrap';
 import { Form, Button, option, Col, ToggleButton } from 'react-bootstrap';
+=======
+import { Dropdown, } from 'react-bootstrap';
+import { useWindowSize } from 'react-dom';
+import Confetti from 'react-confetti';
+>>>>>>> 447f20026c27a85c9d0a9ee667eb5f9c838ed3c6
 
 
 
@@ -222,15 +228,14 @@ class Home extends Component {
         )
     }
 
+
+
     render() {
+
         return (
             <div>
                 <div className='welcome'>
-                    <html>
-                        <head>
-                            <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet" />
-                        </head>
-                    </html>
+                    {/* <Confetti spread={360} startVelocity={100} numberOfPieces={1000} duration={10000} elementCount={109} run={3} recycle={false} /> */}
                     <h1>Welcome to <span className='unite'>Unite</span>!</h1>
                 </div>
                 <div className='containerHome'>
@@ -247,10 +252,110 @@ class Home extends Component {
                         <button className='createEventButton' onClick={() => this.setState({showForm: true})}>Create Event</button>
                     </div>
                     <div className='eventBoardContainers col-lg-4'>
+<<<<<<< HEAD
                         <ul>  
                             <div className='openEventContainer'>
                                 {this.renderEvents()}
                             </div>
+=======
+                        <ul>
+
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+                            {this.state.openEvent ?
+                                <div className='openEventContainer' onClick={() => this.showEvent()}>
+                                    <li>
+                                        <h1>Pizza Party</h1>
+                                        <h3>123 Mario Lane</h3>
+                                        <h3>Kentucky</h3>
+                                        <Dropdown>
+                                            <Dropdown.Toggle className="dropDownButton" variant="primary" id="dropdown-basic">
+                                                Event Details
+                                    </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Card Info</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
+                                    </li>
+                                </div>
+                                : null}
+
+
+
+
+
+>>>>>>> 447f20026c27a85c9d0a9ee667eb5f9c838ed3c6
                         </ul>
                     </div>
                 </div>

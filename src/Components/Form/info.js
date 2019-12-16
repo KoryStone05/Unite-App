@@ -31,6 +31,7 @@ class Info extends Component {
 
     
 
+<<<<<<< HEAD
   // handleSubmit(event) {
   // event.preventDefault();
   // }
@@ -44,7 +45,13 @@ class Info extends Component {
   
 
 
+=======
+    closeEventCard() {
+      this.setState({ formShow: false })
+    }
+>>>>>>> 447f20026c27a85c9d0a9ee667eb5f9c838ed3c6
 
+   
 
     render() {
 
@@ -63,6 +70,12 @@ class Info extends Component {
               <Form.Label {...this.state.eventName}>Event Name</Form.Label>
               <Form.Control />
             </Form.Group>
+
+            <Form.Group controlId="formPartyTime">
+              <Form.Label>Party Time</Form.Label>
+              <Form.Control />
+            </Form.Group>
+
 
             <Form.Group controlId="formGridAddress2">
               <Form.Label {...this.state.address}>Address</Form.Label>
@@ -161,10 +174,17 @@ class Info extends Component {
                 <input type="password" placeholder="*Password Required*" onInput={this.validate} />
               </Form.Group>
             </div>
+<<<<<<< HEAD
             <div>
               <Button className='submitButton' variant="primary" type="submit" onSubmit={this.props.location.infoProps.handleSubmit}>
                 Submit
               </Button>
+=======
+            <div className='button'>
+              <Link as={Link} to='/'><Button className='submitButton' variant="primary" type="submit">
+                Submit
+              </Button></Link>
+>>>>>>> 447f20026c27a85c9d0a9ee667eb5f9c838ed3c6
             </div>
           </Form>
 

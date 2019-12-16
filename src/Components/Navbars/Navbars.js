@@ -21,10 +21,12 @@ class Navbars extends Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
+
                             <Nav.Link as={Link} to='/' className='homeButton'>Home</Nav.Link>
-                            <Nav.Link as={Link} to='/about' className='sign-in' >Add Your Event</Nav.Link>
-                            <Nav.Link as={Link} to='/sign'className='sign-in'>Sign In</Nav.Link>
-                            <Nav.Link as={Link} to='/signUp'className='sign-up'>Sign Up</Nav.Link>
+                            <Nav.Link as={Link} to='/about' className='info' >Add Event</Nav.Link>
+                            <Nav.Link as={Link} to='/sign' className='sign-in'>Sign In</Nav.Link>
+                            <Nav.Link as={Link} to='/signUp' className='sign-up'>Sign Up</Nav.Link>
+
                         </Nav>
                         <Form inline>
                             <FormControl type="text" placeholder="Event?" className="mr-sm-2" />
@@ -32,16 +34,16 @@ class Navbars extends Component {
                         </Form>
                     </Navbar.Collapse>
                 </Navbar>
-            
+
                 <div>
                     <Switch>
-                        <Route exact path='/' component={Home}/>
+                        <Route exact path='/' component={Home} />
 
-                        <Route path='/about' component={Info}/>  
+                        <Route path='/about' component={Info} />
 
-                        <Route path='/sign' component={Signin} /> 
+                        <Route path='/sign' component={Signin} />
 
-                        <Route path='/signUp' component={SignUp} />                     
+                        <Route path='/signUp' component={SignUp} />
 
                     </Switch>
                 </div>

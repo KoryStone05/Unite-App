@@ -1,7 +1,12 @@
 .card {
     padding: 20px;
+<<<<<<< HEAD
     width: 1000px;
     height: 475px;
+=======
+    width: 1050px;
+    height: 525px;
+>>>>>>> 447f20026c27a85c9d0a9ee667eb5f9c838ed3c6
     margin: auto;
     margin-top: 50px;
     background-color: white;
@@ -43,4 +48,9 @@
     margin-bottom: 10px;
     height: 35px;
     text-align: center;
+    font-family: 'Lilita One', cursive !important;
+}
+
+.button {
+    font-family: 'Lilita One', cursive !important;
 }

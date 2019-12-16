@@ -7,3 +7,7 @@
     background-color: white;
     box-shadow: 0 16px 28px 0 black, 0 25px 55px 0 grey;
 }
+
+.button {
+    font-family: 'Lilita One', cursive !important;
+}
