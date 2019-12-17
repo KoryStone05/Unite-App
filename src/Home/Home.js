@@ -19,24 +19,18 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            // removeOnSubmit: false,
             openEvent: true,
             showForm: false,
-            name: '',
+            name: "",
             address: "",
             city: "",
             state: "",
             zipCode: "",
             eventDetails: "",
-            events: [
-                // {
-                //     eventName: "",
-                //     address: "",
-                //     city: "",
-                //     state: "",
-                //     zip: ""
-                // }
-            ]
+            events: []
         }
+        // this.onSubmit = this.onSubmit.bind(this);
     }
 
     
@@ -47,6 +41,18 @@ class Home extends Component {
     showEvent() {
         this.setState({ openEvent: true })
     }
+
+    // onSubmit() {
+    //     this.setState({
+    //         showForm: false,
+    //         name: "",
+    //         address: "",
+    //         city: "",
+    //         state: "",
+    //         zipCode: "",
+    //         eventDetails: ""
+    //     });
+    // }
 
     renderEvents() {
 
@@ -66,7 +72,7 @@ class Home extends Component {
                         </Dropdown.Toggle>
     
                         <Dropdown.Menu>
-                            <Dropdown.Item className='eventDetails' href="#/action-1">{this.state.eventDetails}</Dropdown.Item>
+                            <Dropdown.Item className='eventDetails' href="#/action-1">{event.eventDetails}</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </li>
@@ -76,19 +82,29 @@ class Home extends Component {
 
     addToEvents() {
 
-        const { name, address, city, state, zipCode, events } = this.state;
+        const { name, address, city, state, zipCode, events, eventDetails } = this.state;
         const eventObject = {
             name: name,
             address: address,
             city: city,
             state: state,
-            zipCode: zipCode
+            zipCode: zipCode,
+            eventDetails:eventDetails
         };
         const newEvents = events;
 
         newEvents.push(eventObject);
 
-        this.setState({ events: newEvents });
+        this.setState({ 
+            events: newEvents,
+            showForm: false,
+            name: "",
+            address: "",
+            city: "",
+            state: "",
+            zipCode: "",
+            eventDetails: ""
+        });
     }
 
     
@@ -185,7 +201,7 @@ class Home extends Component {
 
                         <Form.Row>
                         <Form.Group as={Col} controlId='formGridEventDetails'>
-                        <Form.Label>Event Details</Form.Label>
+                        <Form.Label>Event Details(Ex: PartyTime, Supplies, Info about party)</Form.Label>
                             <Form.Control value={this.state.eventDetails} onChange={event => this.setState({ eventDetails: event.target.value })}/>
                         </Form.Group>
                         </Form.Row>
@@ -212,7 +228,10 @@ class Home extends Component {
                             <Button 
                                 className='submitButton' 
                                 variant="primary" 
-                                onClick={() => this.addToEvents()}
+                                onClick={() => {
+                                    this.addToEvents();
+                                    // this.onSubmit();
+                                }}
                             >
                             Submit
                             </Button>

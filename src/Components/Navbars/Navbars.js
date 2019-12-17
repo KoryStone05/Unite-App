@@ -14,7 +14,7 @@ import SignUp from '../SignUp/SignUp';
 
 class Navbars extends Component {
     render() {
-        return (
+        return ( 
             <div>
                 <Navbar bg="secondary" expand="lg">
                     <Navbar.Brand className='title' href="#home">Unite</Navbar.Brand>
