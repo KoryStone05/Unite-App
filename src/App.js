@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className='background'>
-      <Navbars />      
+      <Navbars />     
     </div>
   );
 }

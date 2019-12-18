@@ -7,7 +7,7 @@ import {
     Link,
 } from 'react-router-dom';
 import Home from '../../Home/Home';
-import Info from '../Form/info';
+// import Info from '../Form/info';
 import Signin from '../SignIn/SignIn';
 import SignUp from '../SignUp/SignUp';
 
@@ -39,7 +39,7 @@ class Navbars extends Component {
                     <Switch>
                         <Route exact path='/' component={Home} />
 
-                        <Route path='/about' component={Info} />
+                        {/* <Route path='/about' component={Info} /> */}
 
                         <Route path='/sign' component={Signin} />
 
