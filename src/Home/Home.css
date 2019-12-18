@@ -57,7 +57,7 @@ li {
     background-color: white;
     display: inline-block;
     border-radius: 10px;
-    margin: 5px 65%;
+    margin: 15px 65%;
     border: 2px solid navy;
     box-shadow: 5px 5px black;
 
@@ -101,7 +101,7 @@ li:hover {
 }
 
 .eventDetails {
-    height: 400px;
+    height: 100px;
     width: 800px;
 }
 

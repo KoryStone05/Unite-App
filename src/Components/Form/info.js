@@ -25,15 +25,26 @@
 //       zipInput: '',
 //       eventDetailsInput: '',
 //     }
+<<<<<<< HEAD
 //     // this.handleSubmit = this.handleSubmit.bind(this);
 //   }
+=======
+
+    
+//   }
+
+    
+>>>>>>> aec9a98a979e4a907fdf27bbe3ad498e00fa758b
 
 //   // handleSubmit(event) {
 //   // event.preventDefault();
 //   // }
+<<<<<<< HEAD
 //   handleSubmit(event) {
 //   event.preventDefault();
 //   }
+=======
+>>>>>>> aec9a98a979e4a907fdf27bbe3ad498e00fa758b
 
 
 //   closeEventCard() {
@@ -201,10 +212,14 @@
 //     }
 // // }
 
+<<<<<<< HEAD
 // // export default Info;
 
    
 
+=======
+// export default Info;
+>>>>>>> aec9a98a979e4a907fdf27bbe3ad498e00fa758b
 //     render() {
 
 //       console.log(this.props.location);
